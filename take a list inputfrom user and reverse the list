@@ -1,0 +1,6 @@
+l = list(map(int, input().split()))
+print(l)
+t = []
+for i in range(len(l) - 1, -1, -1):
+  t.append(l[i])
+print(t)
