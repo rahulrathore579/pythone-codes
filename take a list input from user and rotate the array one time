@@ -1,0 +1,8 @@
+l = list(map(int, input().split()))
+print(l)
+s = l[len(l) - 1]
+while (i > 0):
+  l[i + 1] = l[i]
+  l[0] = s
+print(l)
+ 
