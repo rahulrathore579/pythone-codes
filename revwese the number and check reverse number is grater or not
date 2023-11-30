@@ -1,0 +1,12 @@
+num=int(input("put any number: "))
+rev=0
+orignal=num
+while num>0 :
+  r=num%10
+  num=num//10
+  rev=rev*10 + r
+print(rev)
+if(int(rev)>orignal):
+  print("reverse number is grater:")
+else:
+  print("number is grater then reverse number")
