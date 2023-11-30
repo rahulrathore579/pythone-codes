@@ -1,0 +1,6 @@
+h=int(input("hight of tringle:"))
+print(h)
+b=int(input("base of the tringle:"))
+print(b)
+c= 1/2(h*b)
+print("area of tringle:",c)
