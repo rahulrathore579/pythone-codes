@@ -1,0 +1,8 @@
+info=['name':'rahul', 'rollno':43,'section':'CD',"marks":[90,80,70]]
+print(info)
+print(info['name'])
+print(info['rollno'])
+print(info['section'])
+print(info['marks'])
+print(info['marks'][0])
+print(info['marks'][1])
