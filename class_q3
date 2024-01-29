@@ -1,0 +1,17 @@
+class Bank:
+    def _init_(self,name,amount):
+        self.name=name
+        self.amount=amount
+    
+    def deposit(self,amount):
+        self.amount=self.amount + amount
+    def withdraw(self,amount):
+        if self.amount>=amount:
+            self.amount=self.amount-amount
+        else:
+            print('insufficient fund..')
+        
+    def display(self):
+        print(f'{self.name} haveing balance {self.amount}') b1=Bank(3000,'rahul')
+b1.deposit(1500)
+b1.display()
